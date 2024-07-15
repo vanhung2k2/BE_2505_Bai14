@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DALImpl\DALImpl.csproj" />
+    <ProjectReference Include="..\DTO\DTO.csproj" />
   </ItemGroup>
 
 </Project>
