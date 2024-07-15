@@ -16,7 +16,7 @@ public partial class SanPhamDbContext : DbContext
     {
     }
 
-    public virtual DbSet<Attribute> Attributes { get; set; }
+    public virtual DbSet<System.Attribute> Attributes { get; set; }
 
     public virtual DbSet<GroupAttribute> GroupAttributes { get; set; }
 
@@ -30,7 +30,7 @@ public partial class SanPhamDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Attribute>(entity =>
+        modelBuilder.Entity<Entities.Attribute>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Attribut__3214EC27D5B5027C");
 
