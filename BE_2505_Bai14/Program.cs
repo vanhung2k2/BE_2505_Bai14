@@ -31,10 +31,15 @@ namespace BE_2505_Bai14
                     case 3:
                         break;
                     case 4:
+                        productManager.AddProductDetail();
                         break;
                     case 5:
+                        productManager.UpdateProductDetail();
+
                         break;
                     case 6:
+                        productManager.DeleteProductDetail();
+
                         break;
                     default:
                         break;
